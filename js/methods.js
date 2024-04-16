@@ -25,3 +25,27 @@ export let addSpace = (word) => {
 export let makeQuote = (word) => {
   return `"${makeQuote}"`;
 };
+
+export let addId = (word) => {
+  return `"First ID ${word}"`;
+};
+
+export let removeSpace = (word) => {
+  return word.trim();
+};
+
+export let toUpper = (word) => {
+  return word.toUpperCase();
+};
+
+export let triple = (word) => {
+  return word * word * word;
+};
+
+export let addMark = (word) => {
+  return `${word}!`;
+};
+
+export let makeCode = (word) => {
+  return `<${word}>`;
+};
